@@ -1,0 +1,35 @@
+{
+    "name": "molexui/yii2-adminlte3",
+    "description": "Assets of AdminLte3 for Yii2",
+    "keywords": [
+        "adminlte3",
+        "yii2",
+        "extension",
+        "widget",
+        "alert",
+        "flash",
+        "block",
+        "notification",
+        "bootstrap",
+        "jquery",
+        "plugin"
+    ],
+    "homepage": "https://github.com/molexui/yii2-adminlte3",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Agus Suhartono",
+            "email": "agus.suhartono@gmail.com",
+            "homepage": "http://molexui.github.io/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.43"
+    },
+    "autoload": {
+        "psr-4": {
+            "molexui\\adminlte3\\": "src"
+        }
+    }
+}
